@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Light theme variables */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 203 89% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 215 28% 17%;
+
+    --muted: 215 14% 85%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 215 14% 85%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 203 89% 53%;
+
+    --radius: 0.5rem;
+    
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 203 89% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 214 32% 91%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 203 89% 53%;
+  }
+
+  .dark {
+    --background: 210 33% 17%;
+    --foreground: 0 0% 100%;
+
+    --card: 215 28% 15%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 215 28% 15%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 203 89% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 11% 83%;
+    --secondary-foreground: 215 28% 15%;
+
+    --muted: 215 14% 24%;
+    --muted-foreground: 210 7% 74%;
+
+    --accent: 215 14% 24%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 14% 30%;
+    --input: 215 14% 30%;
+    --ring: 203 89% 53%;
+    
+    --sidebar-background: 215 28% 15%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 203 89% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 14% 24%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 215 14% 30%;
+    --sidebar-ring: 203 89% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.tweet-hover {
+  @apply transition-all duration-200 hover:bg-accent/30;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
