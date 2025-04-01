@@ -16,7 +16,7 @@ X Clone is a modern social media platform inspired by Twitter (X), built with Ne
 - **Backend:** Next.js API Routes, Prisma, PostgreSQL
 - **Authentication:** Clerk
 - **Storage:** Cloudinary (for media uploads)
-- **Deployment:** Vercel
+<!-- - **Deployment:** Vercel -->
 
 ## Installation
 
