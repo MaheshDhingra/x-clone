@@ -1,4 +1,4 @@
-# X Clone
+<!-- # X Clone
 
 ## Overview
 X Clone is a modern social media platform inspired by Twitter (X), built with Next.js, TypeScript, Prisma, and Clerk. This project focuses on authentication, database management, and real-time interactions.
@@ -68,4 +68,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 MIT License
-
+ -->
