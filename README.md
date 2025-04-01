@@ -1,4 +1,4 @@
-<!-- # X Clone
+# X Clone
 
 ## Overview
 X Clone is a modern social media platform inspired by Twitter (X), built with Next.js, TypeScript, Prisma, and Clerk. This project focuses on authentication, database management, and real-time interactions.
@@ -12,7 +12,7 @@ X Clone is a modern social media platform inspired by Twitter (X), built with Ne
 - Dark mode support
 
 ## Tech Stack
-- **Frontend:** Next.js, TypeScript, Tailwind CSS
+- **Frontend:** Next.js, TypeScript, Tailwind CSS, Shadcn/ui
 - **Backend:** Next.js API Routes, Prisma, PostgreSQL
 - **Authentication:** Clerk
 - **Storage:** Cloudinary (for media uploads)
@@ -21,7 +21,7 @@ X Clone is a modern social media platform inspired by Twitter (X), built with Ne
 ## Installation
 
 ### Prerequisites
-- Node.js (v18+ recommended)
+- Bun.js (v18+ recommended)
 - PostgreSQL database
 - Clerk account
 - Cloudinary account (for media storage)
@@ -29,12 +29,12 @@ X Clone is a modern social media platform inspired by Twitter (X), built with Ne
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/x-clone.git
+   git clone https://github.com/MaheshDhingra/x-clone.git
    cd x-clone
    ```
 2. Install dependencies:
    ```bash
-   npm install
+   bun install
    ```
 3. Create a `.env` file in the root directory and add the following:
    ```env
@@ -48,7 +48,7 @@ X Clone is a modern social media platform inspired by Twitter (X), built with Ne
    ```
 5. Start the development server:
    ```bash
-   npm run dev
+   bun run dev
    ```
 
 ## Usage
@@ -68,4 +68,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 MIT License
- -->
